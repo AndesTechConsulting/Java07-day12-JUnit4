@@ -1,0 +1,10 @@
+﻿
+rem run test Suite:
+mvn test -Dtest=TestSuit01
+
+rem run maven profile with classes:
+mvn test -Dtest=TestSuit01,AppTest -P Slow
+
+rem запуск junit4 раннера:  
+
+C:\Users\and\IdeaProjects2\JUnitApp2\target>java -cp JUnitApp2-1.0-SNAPSHOT.jar;JUnitApp2-1.0-SNAPSHOT-tests.jar;C:\Users\and\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\and\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\and\.m2\repository\org\andestech\learning\rfb18\at\JUtesningModule\1.0-SNAPSHOT\JUtesningModule-1.0-SNAPSHOT.jar org.andestech.learning.rfb18.at.day2.Runner
